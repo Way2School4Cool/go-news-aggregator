@@ -1,0 +1,42 @@
+# Binary / Build artifacts
+bin/
+out/
+dist/
+# Common Go binary names (adjust if yours is different)
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+# If you name your binary the same as the folder
+/app-name
+
+# Dependencies
+# It is generally recommended to NOT check in the vendor folder 
+# unless you have a specific reason to (e.g., air-gapped builds)
+vendor/
+
+# Test and Coverage
+*.test
+*.out
+coverage.txt
+coverage.html
+
+# Tools and IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Environment variables (Sensitive Data)
+.env
+.env.local
+.env.*.local
+
+# Go workspace file
+go.work
+go.work.sum
+
+# Logs
+*.log
